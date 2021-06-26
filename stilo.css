@@ -1,0 +1,55 @@
+/*Reset do padrão de margem e padding do navegador*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+/*Aplicando as dimensões da div do cabeçalho*/
+.navegation {
+  display: block;
+  height: 80px;
+  width: 100%;
+}
+
+/*Posicionando a logo */
+.navegation img {
+  height: 100px;
+  display: flex;
+  position: fixed;
+  /*Deixei sem margem a esquerda para teste */
+  /* margin-left: 10px ; */
+}
+
+/*Tirando stilo dos links*/
+ul {
+  list-style-type: none;  
+}
+
+/*Deixando os links flutuando a direita do Logo*/
+li {
+  float: right;
+}
+
+/*Ajustando posiscionamento e padrões dos links*/
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 5px;
+  padding: 12px 16px;
+  text-decoration: none;
+  
+}
+
+/*Adicionando efeito nos links*/
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+    cursor: pointer;
+    color: rgb(255,145,77);
+	}
+a:active {
+	text-decoration: none
+	}
