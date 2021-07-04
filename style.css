@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.4%;
+    height: 70px;
+    background-image: linear-gradient(135deg, #ff914c, #ff914f);
+    
+}
+
+img {
+    height: 70px;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+}
+
+.navegacao ul {
+    display: flex;
+    list-style: none;
+}
+
+.navegacao ul li a {
+    align-items: center;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.navegacao a {
+    display: block;
+    color: #fff;
+}
+
+.navegacao a:hover {
+    color: #fff;
+    transition-duration: 0.5s;
+    opacity: 1;
+    border-bottom: 1px solid #fff;
+}
+
+.navegacao li+li {
+    padding-left: 10px;
+}
+
+.btn-login {
+    margin: 10px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+.btn-login:hover{
+    cursor: pointer;
+    background-color: #ff914f;
+    transition: 0.3s;    
+}
+
+/* estilizando contudo do primeiro bloco */
+
+.section-1 {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-1 h1 {
+    font-size: 1em;
+    letter-spacing: 0.2;
+    margin-bottom: 5px;
+}
+
+.container-1 p {
+    display: flex;
+    margin-top: 40px;
+}
+
+.imagem-1 img {
+    height: 400px;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+/* estilização do segundo bloco */
+
+.section-2 {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: end;
+    padding: 10px;
+    background-image: linear-gradient(135deg, #ff917f, #ff914f);
+}
+
+.container-2 h1 {
+    font-size: 1em;
+    letter-spacing: 0.2;
+    margin-bottom: 5px;
+}
+
+.container-2 p {
+    display: flex;
+    margin-top: 40px;
+}
+
+.imagem-2 img {
+    height: 400px;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+/* estilização do terceiro bloco */
+
+.section-3 {
+    display: flex;
+    height: 400px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-3 h1 {
+    font-size: 1em;
+    letter-spacing: 0.2;
+    margin-bottom: 5px;
+}
+
+.container-3 p {
+    display: flex;
+    margin-top: 40px;
+}
+
+.imagem-3 img {
+    height: 400px;
+    box-shadow: 1px 1px 5px;
+    border-radius: 5px;
+    opacity: 0.6;
+}
+
+.section-3 btn {
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* estilização do botão cadastre-se */
+
+.btn-cadastro {
+    margin: 10px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    background-image: linear-gradient(135deg, #ff914c, #ff914f);
+    text-align: center;
+}
+
+.btn-cadastro:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+/* estilização do footer */
+
+.footer {
+    display: flex;
+    height: 70px;
+    background-image: linear-gradient(135deg, #ff914c, #ff913f);
+}
+
+.social-midia ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+.social-midia a {
+    text-decoration: none;
+}
