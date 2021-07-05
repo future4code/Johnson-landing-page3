@@ -11,7 +11,6 @@
     padding: 0.4%;
     height: 70px;
     background-image: linear-gradient(135deg, #ff914c, #ff914f);
-    
 }
 
 img {
@@ -59,10 +58,10 @@ img {
     box-shadow: 2px 2px 5px;
 }
 
-.btn-login:hover{
+.btn-login:hover {
     cursor: pointer;
     background-color: #ff914f;
-    transition: 0.3s;    
+    transition: 0.3s;
 }
 
 /* estilizando contudo do primeiro bloco */
@@ -171,7 +170,7 @@ img {
     text-align: center;
 }
 
-.btn-cadastro:hover{
+.btn-cadastro:hover {
     cursor: pointer;
     text-transform: uppercase;
     transition: 0.2s;
@@ -183,22 +182,128 @@ img {
     margin-top: 20px;
 }
 
-
 /* estilização do footer */
 
-.footer {
+.container {
+    margin: 0 auto;
     display: flex;
-    height: 70px;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
     background-image: linear-gradient(135deg, #ff914c, #ff913f);
 }
 
-.social-midia ul li{
+/* Estilizando as midias sociais */
+
+.social-midias {
     display: flex;
+    justify-content: center;
     align-items: center;
-    list-style: none;
-
 }
 
-.social-midia a {
+.container .twitter a {
+    display: block;
+    height: 40px;
+    font-size: 15px;
     text-decoration: none;
+    padding-left: 20px;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
 }
+
+.container .twitter i {
+    padding-right: 12px;
+    font-size: 20px;
+}
+
+.container .twitter a:hover {
+    background: linear-gradient(to left, #ff913f 0%, #ff914f 100%);
+    color: #fff;
+}
+
+.container .facebook a {
+    display: block;
+    height: 40px;
+    width: 50%;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 20px;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.container .facebook i {
+    padding-right: 12px;
+    font-size: 20px;
+}
+
+.container .facebook a:hover {
+    background: linear-gradient(to left, #ff913f 0%, #ff914f 100%);
+    color: #fff;
+}
+
+.container .instagram a {
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 20px;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.container .instagram i {
+    padding-right: 12px;
+    font-size: 20px;
+}
+
+.container .instagram a:hover {
+    background: linear-gradient(to left, #ff913f 0%, #ff914f 100%);
+    color: #fff;
+}
+
+.container .linkedin a {
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-decoration: none;
+    padding-left: 20px;
+    line-height: 45px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.container .linkedin i {
+    padding-right: 12px;
+    font-size: 20px;
+}
+
+.container .linkedin a:hover {
+    background: linear-gradient(to left, #ff913f 0%, #ff914f 100%);
+    color: #fff;
+}
+
+.mapa {
+    height: 80px;
+}
+
+.endereco {
+    margin: 0 auto;
+   
+}
+
+
+.endereco p {
+    font-size: 13px;
+    
+}
+
+
