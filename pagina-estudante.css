@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #282044;
+    font-family:'Roboto Slab', serif;
+}  
+
+/* Container-geral */
+
+.container-geral {
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+
+
+
+/* header */
+
+
+header {
+    background-color: #ff914d ;
+}
+.menu-superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+
+}
+
+.menu {
+    display: flex;
+    width: 40%;
+    padding-right: 40px;
+    justify-content: space-evenly ;
+    font-size: 1.5;
+    
+}
+
+
+
+.menu>div>a {
+    text-decoration: none;
+    color: white;
+   
+}
+
+.menu>div>a:hover {
+    color:#ffbd59;
+        
+}
+
+
+
+.imagem>img {
+    width: 98px;
+}
+
+.button {
+    
+}
+
+/* Main */
+
+
+main {
+    margin-bottom: 10px;
+    display: grid;
+    
+    gap: 2px;
+    
+    
+}
+
+
+
+.conta-estudante, .mais-informacoes {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.mais-informacoes {
+    margin-top: 63%px;
+}
+.foto-esquerda {
+    background-size: cover;
+    
+   
+}
+
+.texto-esquerda {
+    padding: 20px;
+    color: #282044;
+    font-size: 1.5em;
+    
+}
+
+.texto-esquerda>h1 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+.texto-esquerda>ul>li {
+    margin: 5px;
+    font-size: 0.7em;
+}
+
+.foto-esquerda>img, .foto-direita>img {
+    width: 100%;
+    height: 100%;
+}
+
+.foto-direita {
+    
+}
+
+
+
+/* FOOTER*/
+
+
+footer {
+    background-color: #ffbd59;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content:space-between;
+    width: 300px;
+    align-items: center;
+}
+
+.redes-sociais>div {
+    display: flex;
+    
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    
+}
+
+.redes-sociais img:hover {
+    transform: scale(1.2) translateY(-10px);
+    
+
+}
+
+.frase-banco {
+    padding-top: 10px;
+}
+
+.frase-banco p {
+    color: white;
+    font-size: 1.5em;
+}
+
+
+
+.redes-sociais img {
+    width: 30px;
+}
