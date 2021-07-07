@@ -8,4 +8,3 @@
 
 # captura de tela Jovem-empreendedor:
 
-```![ captura de tela](capturadetela1.png)```
