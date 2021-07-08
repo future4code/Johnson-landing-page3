@@ -24,33 +24,38 @@
 .cabecalho {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  
+  min-width: 80px;
+  max-height: 400px;
   background-image: linear-gradient(135deg, #ff914c, #ff914f);
   align-items: center;
   padding: 0 16px;
   flex-wrap: wrap;
   position: fixed;
-  width: 100vw;
+  width: 100%;
+  
 }
 
 
 .menu {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; 
- width: 700px;
- flex-wrap: wrap;
+  justify-content: space-between; 
+  width: 600px;  
  padding: 0 16px 16px ;
  align-items: center;
  text-decoration: none;
  opacity: 0.6;
  padding-top: 15px;
+ flex-wrap: wrap;
  
 }
 .menu a {
   display: block;
   color: #fff;
   font-size: 20px;
+  justify-content: space-evenly; 
+ 
 }
 
 header img {
@@ -90,13 +95,16 @@ header img {
 /* Body */
 main {
   flex: 1;
+  width: 100%;
 }
 
 .f4bank-f4couple, .conta-estudante, .conta-jovem-empreendedor {
   display: flex;
   flex-direction: column;
   align-items: center;   
-  border: 2px solid black;
+  border: 1px solid rgb(212, 166, 106);
+  width: 100%;
+  
 }
 
 
@@ -104,6 +112,8 @@ main {
 
   display: flex;
   justify-content: space-between;
+  width: 100%;
+ 
 }
 .texto-pagina-inicial {
   display: flex;
@@ -116,6 +126,27 @@ main {
 main img {
   width: 100%;
 }
+.imagem-pagina-inicial {
+  max-width: 60%;
+}
+h1 {
+  color: #ff914f;
+}
+.btn-contas{
+margin: 10px;
+height: 40px;
+padding: 5px;
+border: 1px solid #ff913f;
+border-radius: 5px;
+color: #ff913f;    
+background: #fff;
+font-size: 1,3em;
+opacity: 0.7;
+
+}
+
+
+
 
 /* FOOTER */
 
@@ -124,7 +155,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  height: 100px;
+  max-height: 100px;
   background-image: linear-gradient(135deg, #ff914c, #ff913f);
 }
 
@@ -192,3 +223,38 @@ footer {
   align-items: center;
 
 }
+
+
+/* MIDIA QUERY */
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* celula.res */
+  .btn-login{
+    display: none;
+  }
+
+  .imagem-pagina-inicial {
+    display: none;
+  }
+  .texto-pagina-inicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+    flex-wrap: nowrap;
+    font-size: 70%;
+    margin-top: 40%;
+    margin-bottom: 10%;
+  }
+  .menu {
+    padding-right: 10%;
+  }
+ 
+  @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+  /* tablets */
+  }
+  @media screen and (min-device-width : 1200px) {
+  /* computadores */
+  }
+  
