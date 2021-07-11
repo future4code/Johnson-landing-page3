@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Roboto Mono', monospace;
     resize: both;
+    
 }
 
 /* definindo display grid */
@@ -22,6 +23,10 @@
     justify-content: space-between;
     padding: 0 10px;
 }
+
+
+
+
 
 /* estilizando os botões de navegação */
 
@@ -98,9 +103,9 @@
 }
 
 .container-1 h1 {
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 0.2;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .container-1 p {
@@ -139,7 +144,7 @@
 }
 
 .container-2 h1 {
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 0.2;
     margin-bottom: 5px;
 }
@@ -177,7 +182,7 @@
 }
 
 .container-3 h1 {
-    font-size: 1em;
+    font-size: 1.2em;
     letter-spacing: 0.2;
     margin-bottom: 5px;
 }
@@ -333,3 +338,50 @@
     padding-right: 12px;
     font-size: 20px;
 }
+
+.frase-banco{
+    color: #fff;
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        height: 360px;
+        
+    }
+    .imagem-1 img{
+       max-height: 200px;
+       margin: 10px;
+    }
+
+    .section-2{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        text-align: center;
+        
+    }
+    .imagem-2 img{
+       max-height: 200px;
+       width: 350px;
+       margin: 10px;
+    }
+
+    .section-3{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 400px;
+        margin: 10px;
+        
+    }
+    .imagem-3 img{
+       max-height: 200px;
+       
+    }
+
+    .endereco{
+        display: none;
+    }
+}
+
