@@ -24,7 +24,7 @@
 .cabecalho {
   display: flex;
   justify-content: space-between;
-  
+  z-index: 9;
   min-width: 80px;
   max-height: 400px;
   background-image: linear-gradient(135deg, #ff914c, #ff914f);
@@ -55,6 +55,7 @@
   color: #fff;
   font-size: 20px;
   justify-content: space-evenly; 
+  text-decoration: none;
  
 }
 
@@ -98,6 +99,9 @@ main {
   width: 100%;
 }
 
+main a {
+  text-decoration: none;
+}
 .f4bank-f4couple, .conta-estudante, .conta-jovem-empreendedor {
   display: flex;
   flex-direction: column;
@@ -153,13 +157,26 @@ opacity: 0.7;
 
 footer {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  max-height: 100px;
+  /* max-height: 200px;     */
   background-image: linear-gradient(135deg, #ff914c, #ff913f);
 }
 
+.primeiro-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding-top: 20px ;
+}
 
+.segundo-container {
+  color: white;
+  font-size: 1.5em;
+  padding-top: 8px ;
+}
 .social-midias {
   display: flex;
   justify-content: center;
@@ -225,17 +242,24 @@ footer {
 }
 
 
+
 /* MIDIA QUERY */
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* celula.res */
-  .btn-login{
+  /* .btn-login{
     display: none;
   }
 
   .imagem-pagina-inicial {
     display: none;
   }
+
+  */
+
+  /* .container-geral{
+    font-size: 0.6em;
+  } */
   .texto-pagina-inicial {
     display: flex;
     flex-direction: column;
@@ -243,13 +267,73 @@ footer {
     justify-content: center;
      
     flex-wrap: nowrap;
-    font-size: 70%;
-    margin-top: 40%;
+    font-size: 0.6em;
     margin-bottom: 10%;
   }
+
+  
+
   .menu {
     padding-right: 10%;
   }
+
+
+
+  .container-geral{
+    max-width: 480px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    
+    padding: 35px 0;
+    margin-top: 100px;
+  }
+
+  main h1 {
+    font-size: 1.2em;
+  }
+
+  .pagina-inicial {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .cabecalho {
+    display: flex;
+    flex-wrap: nowrap;
+   
+    
+    
+  }
+/* 
+  .links-de-acesso {
+    width: 93%;
+    text-align: center;
+  } */
+
+  .menu {
+    justify-content: unset;
+  }
+
+  .menu a {
+    padding: 0 8px;
+  }
+
+  main img {
+    width: 200px;
+  }
+  .primeiro-container {
+  width: 90%;
+  }
+
+  .segundo-container {
+  text-align: center;
+  }
+}
  
   @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
   /* tablets */
