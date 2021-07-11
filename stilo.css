@@ -16,6 +16,11 @@
  
 }
 
+.links-de-acesso{
+  display: flex;
+
+}
+
 
 
 
@@ -29,7 +34,7 @@
   max-height: 400px;
   background-image: linear-gradient(135deg, #ff914c, #ff914f);
   align-items: center;
-  padding: 0 16px;
+  padding: 0 10px;
   flex-wrap: wrap;
   position: fixed;
   width: 100%;
@@ -341,4 +346,3 @@ footer {
   @media screen and (min-device-width : 1200px) {
   /* computadores */
   }
-}
