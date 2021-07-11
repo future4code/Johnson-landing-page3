@@ -40,6 +40,10 @@
    padding-top: 15px;
    flex-wrap: wrap;
   }
+
+  .links-de-acesso {
+    display:flex;
+  }
   .menu a {
     display: block;
     color: #fff;
