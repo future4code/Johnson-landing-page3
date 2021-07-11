@@ -11,7 +11,9 @@ Francisco José Godoy
 Link surge: https://distinct-fly.surge.sh/
 
 
+Relato do projeto:
 
+Tivemos problemas com a responsividade. Dificuldades técnicas para dispor as divs no tamanho do celular. Em telas maiores não ficou muito proporcional.
 
 
 # landing-page-template
